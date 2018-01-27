@@ -1,0 +1,24 @@
+{
+  "name": "hello-js-se05-ep04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavosmonteiro/hello-js-se05-ep04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavosmonteiro/hello-js-se05-ep04/issues"
+  },
+  "homepage": "https://github.com/gustavosmonteiro/hello-js-se05-ep04#readme",
+  "dependencies": {
+    "knex": "^0.14.2",
+    "sqlite3": "^3.1.13"
+  }
+}
