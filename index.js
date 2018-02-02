@@ -35,7 +35,7 @@ switch (process.argv[2]) {
         contato = {nome_contato,telefone_contato}
         console.log(contato)
         
-        knex("contato").update({contato}).where({id_contato}).then(ret => {
+        knex("contato").update(contato).where({id_contato}).then(ret => {
             console.log(ret)
             process.exit(0)
         })
